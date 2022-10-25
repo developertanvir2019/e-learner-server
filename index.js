@@ -19,6 +19,6 @@ app.get('/courses/:id', (req, res) => {
     res.send(selectedId);
 });
 app.listen(port, () => {
-    console.log('news', port)
+    console.log('news is', port)
 })
 module.exports = app;
